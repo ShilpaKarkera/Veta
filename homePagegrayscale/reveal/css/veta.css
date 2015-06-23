@@ -1,0 +1,240 @@
+
+/*
+
+Veta Studios Custom Style for reveal.js preentation @ www.vetastudio.com
+
+*/
+
+
+/*ALL IMAGES*/
+
+.vetaImages{
+  background: rgba(255, 255, 255, 0.12);
+     border: 0px solid #333 !important; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.managerConsole{
+  margin: 0 0;
+    background: url(images/smallmac.png);
+    background-position: -10px -93px;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    height: 420px;
+    float: left;
+    width: 515px;
+
+}
+
+.account{
+   background: url(images/smallmac.png);
+    background-position: -10px -93px;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+
+}
+    
+
+
+
+/*Team Profile logo*/
+
+.profileBox img.profilePic{
+  background: none; 
+  border:none ;  
+  border-radius: 50%; 
+     width: 200px;
+      float:left;
+  height: 200px;
+  width: 200px;
+  margin:20px;
+
+}
+
+.profileBox img.profilePic:hover{
+    
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.55);
+}
+
+div.profileBox{
+    width: 80%;
+    margin: auto auto auto auto;
+}
+
+
+#autoMargin {
+    width: 100%;
+    margin: 30px auto;
+    /* clear: both; */
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+/*spinning and sliding*/
+
+.reveal .slides .fragment.spin-out {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0) rotateY(0deg) translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0) rotateY(0deg) translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0) rotateY(0deg) translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0) rotateY(0deg) translate3d(0, 0, 0);
+}
+
+.reveal .slides .fragment.spin-in {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0) rotateY(90deg) translate3d(100%, 0, 0);
+    -moz-transform: translate3d(100%, 0, 0) rotateY(90deg) translate3d(100%, 0, 0);
+    -ms-transform: translate3d(100%, 0, 0) rotateY(90deg) translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0) rotateY(90deg) translate3d(100%, 0, 0);
+}
+
+
+.reveal .slides .fragment.spin-out.visible {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotateY(-90deg) translate3d(-100%, 0, 0);
+    -moz-transform: translate3d(-100%, 0, 0) rotateY(-90deg) translate3d(-100%, 0, 0);
+    -ms-transform: translate3d(-100%, 0, 0) rotateY(-90deg) translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0) rotateY(-90deg) translate3d(-100%, 0, 0);
+}
+
+.reveal .slides .fragment.spin-in.visible {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0) rotateY(0deg) translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0) rotateY(0deg) translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0) rotateY(0deg) translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0) rotateY(0deg) translate3d(0, 0, 0);
+}
+
+
+
+/*Flipping*/
+
+.reveal .slides .fragment.flip-in {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 300px, 0) rotateX(-90deg) translate3d(0, 300px, 0);
+    -moz-transform: translate3d(0, 300px, 0) rotateX(-90deg) translate3d(0, 300px, 0);
+    -ms-transform: translate3d(0, 300px, 0) rotateX(-90deg) translate3d(0, 300px, 0) 2s;
+    transform: translate3d(0, 300px, 0) rotateX(-90deg) translate3d(0, 300px, 0) 2s;
+}
+
+.reveal .slides .fragment.flip-in.visible {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0) rotateX(0) translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0) rotateX(0) translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0) rotateX(0) translate3d(0, 0, 0) 2s;
+    transform: translate3d(0, 0, 0) rotateX(0) translate3d(0, 0, 0) 2s;
+}
+
+
+
+/*Zoom in*/
+
+.reveal .slides section .fragment.zoom-out {
+    opacity: 0;
+    -webkit-transform: scale( 10 );
+    -moz-transform: scale( 10 );
+    -ms-transform: scale( 10 );
+    -o-transform: scale( 10 );
+    transform: scale( 10 );
+}
+
+.reveal .slides section .fragment.zoom-out.visible {
+    opacity: .95;
+    -webkit-transform: scale( 1 );
+    -moz-transform: scale( 1 );
+    -ms-transform: scale( 1 );
+    -o-transform: scale( 1 );
+    transform: scale( 1 );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ankitz: My CSS Styles from hereon*/
+
+
+/* LOGO start ------------------------------------------------------ */
+
+/* Global ------------------------------------------------------ */
+p#logotext {
+    margin: 0; 
+}
+/* box ------------------------------------------------------ */
+#logobox {
+ /* padding: 100px;*/
+   margin: 12px 0 0 0;
+  /*text-align: center;*/
+  /*min-width: 200px;*/
+  /* heigth:auto; */
+  font-size: 1.5em;
+  font-weight: bold;
+  
+   /* background: hsl(210, 30%, 0%) radial-gradient( hsl(210, 30%, 20%), hsl(210, 30%, 0%)); */
+  -webkit-backface-visibility: hidden; /* fixes flashing */
+}
+
+/* logotext ------------------------------------------------------ */
+#logotext {
+  color: hsla(0,0%,0%,0);
+  perspective: 80px;
+  outline: none;
+}
+
+
+/* logoveta ------------------------------------------------------ */
+
+#logoveta {
+   display: inline-block; 
+  text-shadow: #ccc 0 0 1px, #fff 0 -1px 1px, #fff 0 -3px 3px, rgba(0,0,0,0.8) 0 30px 20px;
+  transition: margin-left 1.9s cubic-bezier(0, 0.5, 0, 1);
+}
+    
+#logobox:hover #logoveta {
+  margin-left: 30px;
+  text-decoration: none;
+  transition: margin-left 1s cubic-bezier(0, 0.75, 0, 1);
+}
+
+
+/* logostudio ------------------------------------------------------ */
+
+#logostudio {
+   display: inline-block;   
+  text-shadow: #111 0 0 1px, rgba(255,255,255,0.1) 0 1px 3px;
+}
+
+#logobox:hover #logostudio {
+  text-shadow: #fff 2px 0px 3px, #fcffbb 2px 0 20px;
+  
+  transition: font-size 1s cubic-bezier(0, 0.75, 0, 1);
+  transform: rotateY(-0deg); 
+  transition:         transform 0.3s cubic-bezier(0, 0.75, 0, 1), text-shadow 0.4s ease-out;
+}
+
+/* LOGO END ------------------------------------------------------ */
